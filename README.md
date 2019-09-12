@@ -5,14 +5,14 @@
 //pagedivider defaults
 $(".page-divider").tntdivider({
 	title:'h2',
-	alignBody: true,
+	alignBody: false,
 	alignHeight:275,
 	alignTitles: true
 }); 
 ```
 
 ## Options
-Options | Description | Adds Class
+Option | Description | Adds Class
 -------|--------------|-----
 title:h2 | HTML tag for title ie. h2, h3 or any selector | .pd-title
 alignTitles:false | Moves images before titles to align | none
