@@ -31,7 +31,7 @@
 						.addBack()
 						.wrapAll('<div class="pd-block"><div class="pd-body">');        
 				});				
-				//var iniBodyH = $(".p")
+				
 				//move anchors IMPORTANT
 				container.find("a[name]:first-of-type").each(function(){  
 					var getAnchor = $(this).parent().addClass('pd-anchor'),
