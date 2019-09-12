@@ -1,4 +1,4 @@
-# pagedivider
+# PageDivider
 
 ## Basic Settings
 ```javascript
