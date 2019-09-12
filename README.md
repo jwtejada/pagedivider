@@ -3,12 +3,14 @@
 ## Basic Settings
 ```javascript
 //pagedivider defaults
-$(".page-divider").tntdivider({
-	title:'h2',
-	alignBody: false,
-	alignHeight:275,
-	alignTitles: true
-}); 
+if($(".page-divider").length) {
+	$(".page-divider").tntdivider({
+            alt: 'odd',
+            alignBody: true,
+            alignTitles: true,
+            alignHeight: 400
+	});  
+}
 ```
 
 ## Options
